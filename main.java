@@ -38,3 +38,7 @@ public final class HappyApp {
     }
 
     public long getSlot(String namespace) {
+        return slotValues.getOrDefault(namespace, 0L);
+    }
+
+    public int getSlotCount() {
