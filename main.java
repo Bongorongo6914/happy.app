@@ -6,3 +6,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * HappyApp — Slot allocation and quota ledger.
  * Allocates named slots with payloads; used for offchain indexing and Merkle proof materialization.
+ */
+public final class HappyApp {
+
+    public static final String APP_NAME = "Happy.app";
