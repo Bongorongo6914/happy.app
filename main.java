@@ -62,3 +62,7 @@ public final class HappyApp {
 
     public static void main(String[] args) {
         HappyApp app = new HappyApp();
+        app.recordSlot("alpha", 1001L);
+        app.recordSlot("beta", 2002L);
+        System.out.println("Fingerprint: " + app.fingerprint());
+        System.out.println("Slots: " + app.getSlotCount());
