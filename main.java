@@ -58,3 +58,7 @@ public final class HappyApp {
             String.format("%s%d%d%s", DEPLOY_SALT, slotCount, deployTime.toEpochMilli(), CUSTODIAN)
                 .getBytes()
         ).toString();
+    }
+
+    public static void main(String[] args) {
+        HappyApp app = new HappyApp();
