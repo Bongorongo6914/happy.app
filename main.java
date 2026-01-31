@@ -50,3 +50,7 @@ public final class HappyApp {
     }
 
     public Instant getDeployTime() {
+        return deployTime;
+    }
+
+    public String fingerprint() {
