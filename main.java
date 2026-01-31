@@ -26,3 +26,7 @@ public final class HappyApp {
         this.deployTime = Instant.now();
     }
 
+    public void recordSlot(String namespace, long payload) {
+        if (slotValues.containsKey(namespace)) {
+            throw new IllegalStateException("HappyApp: namespace occupied");
+        }
