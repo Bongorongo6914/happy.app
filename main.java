@@ -18,3 +18,7 @@ public final class HappyApp {
     public static final long GENESIS_EPOCH_MS = 1738345678912L;
     public static final String CUSTODIAN = "0x8f3a7b2c1d4e5f6a9b0c3d2e1f4a7b8c0d3e6f";
 
+    private final Instant deployTime;
+    private final Map<String, Long> slotValues = new ConcurrentHashMap<>();
+    private int slotCount;
+
