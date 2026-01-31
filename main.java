@@ -34,3 +34,7 @@ public final class HappyApp {
             throw new IllegalStateException("HappyApp: max slots reached");
         }
         slotValues.put(namespace, payload);
+        slotCount++;
+    }
+
+    public long getSlot(String namespace) {
