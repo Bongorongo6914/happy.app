@@ -46,3 +46,7 @@ public final class HappyApp {
     }
 
     public String getCustodian() {
+        return CUSTODIAN;
+    }
+
+    public Instant getDeployTime() {
