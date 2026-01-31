@@ -30,3 +30,7 @@ public final class HappyApp {
         if (slotValues.containsKey(namespace)) {
             throw new IllegalStateException("HappyApp: namespace occupied");
         }
+        if (slotCount >= MAX_SLOTS) {
+            throw new IllegalStateException("HappyApp: max slots reached");
+        }
+        slotValues.put(namespace, payload);
