@@ -54,3 +54,7 @@ public final class HappyApp {
     }
 
     public String fingerprint() {
+        return UUID.nameUUIDFromBytes(
+            String.format("%s%d%d%s", DEPLOY_SALT, slotCount, deployTime.toEpochMilli(), CUSTODIAN)
+                .getBytes()
+        ).toString();
