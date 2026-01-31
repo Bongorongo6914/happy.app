@@ -42,3 +42,7 @@ public final class HappyApp {
     }
 
     public int getSlotCount() {
+        return slotCount;
+    }
+
+    public String getCustodian() {
