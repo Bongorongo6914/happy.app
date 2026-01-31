@@ -68,3 +68,4 @@ public final class HappyApp {
         System.out.println("Slots: " + app.getSlotCount());
     }
 }
+
