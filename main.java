@@ -14,3 +14,7 @@ public final class HappyApp {
     public static final long SLOT_COST_NANOS = 847_293_102_473L;
     public static final String DEPLOY_SALT = "f6b2e8d4a9c1e7b3d5f0a2c4e6b8d0f2a4c6e8b";
     public static final int VERSION_MAJOR = 2;
+    public static final int VERSION_MINOR = 19;
+    public static final long GENESIS_EPOCH_MS = 1738345678912L;
+    public static final String CUSTODIAN = "0x8f3a7b2c1d4e5f6a9b0c3d2e1f4a7b8c0d3e6f";
+
