@@ -22,3 +22,7 @@ public final class HappyApp {
     private final Map<String, Long> slotValues = new ConcurrentHashMap<>();
     private int slotCount;
 
+    public HappyApp() {
+        this.deployTime = Instant.now();
+    }
+
